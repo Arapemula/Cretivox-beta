@@ -1,0 +1,64 @@
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fcee09, 0 0 20px #fcee09;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fcee09, 0 0 20px #fcee09;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fcee09, 0 0 40px #fcee09;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fcee09, 0 0 40px #fcee09;
+  }
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 35px #fcee09, 0 0 45px #fcee09;
+  box-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 35px #fcee09, 0 0 45px #fcee09;
+}
+
+.glow-button {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  animation: glow 1.5s ease-in-out infinite alternate;
+  background: transparent;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fcee09;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fcee09;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 10px 10px 30px;
+  width: 160px;
+  position: relative;
+}
+
+.polaroid-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.polaroid-label {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+}
+
+.video-frame {
+  position: relative;
+}
+
+.frame-overlay {
+  position: absolute;
+  top: -100px;
+  left: -10px;
+  width: 420px;
+  height: 475px;
+  pointer-events: none;
+}

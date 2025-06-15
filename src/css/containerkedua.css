@@ -1,0 +1,168 @@
+.lakban-container {
+    position: relative;
+    width: 100%;  
+    height: 1000px; 
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.lakban1 {
+    position: absolute;
+    top: 10%;
+    left: -100px;
+    width: 2000px;
+    height: 55px;
+    transform: rotate(-11deg);
+    background-color: #fcee09;
+    color: #2e2e2e;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+
+.lakban2 {
+    position: absolute;
+    top: 20%;
+    right: -110px;
+    width: 2000px;
+    height: 55px;
+    transform: rotate(13deg);
+    background-color: #fcee09;
+    color:#2e2e2e;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+.lakban3 {
+    position: absolute;
+    top: 50%;
+    right: -110px;
+    width: 2000px;
+    height: 55px;
+    transform: rotate(4deg);
+    background-color: #fcee09;
+    color:#2e2e2e;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+.lakban4 {
+    position: absolute;
+    top: 54%;
+    right: -110px;
+    width: 2000px;
+    height: 55px;
+    transform: rotate(-4deg);
+    background-color: #fcee09;
+    color:#2e2e2e;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+.text-scroll {
+    white-space: nowrap;
+    display: inline-block;
+    will-change: transform;
+}
+
+.skills-main{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    top: 360px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px; 
+}
+.skills-container {
+    display: flex;
+    
+    
+}
+.alert {
+    rotate: 10deg;
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.skills {
+    color: #fcee09;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+.skills.glitch {
+  font-size: 32px !important;
+  font-weight: 800;
+  color: #fcee09;
+  margin-top: 80px;
+  margin-left: -50px;
+  font-family: sans-serif;
+}
+.skill-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+}
+.bar{
+    width: 80%;
+}
+.skill-label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fcee09;
+  margin-bottom: 4px;
+  align-self: flex-start;
+  margin-left: 10%;
+}
+
+.custom-scroll-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  top: auto;
+  padding-bottom: 16px;
+  z-index: 10;
+  width: 100%;
+  height: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.scroller {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
+

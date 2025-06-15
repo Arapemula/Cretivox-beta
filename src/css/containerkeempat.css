@@ -1,0 +1,104 @@
+.horizontal-scroll-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-scroll-container {
+  display: flex;
+  flex-direction: row;
+  padding-block: 1rem;
+  gap: 1rem;
+  cursor: grab;
+}
+
+.horizontal-scroll-item {
+  min-width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fffa90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  user-select: none;
+}
+
+.horizontal-scroll-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.favorite-songs-title {
+  font-size: 2rem !important;
+  color: #2e2e2e;
+}
+
+.scrollvelocity-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.keempat-section {
+  position: relative;
+  padding-top: 60px;
+}
+
+.keempat-content {
+  width: 100%;
+  padding: 2rem 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.scroll-container {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gradient-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(to right, #2e2e2e 80%, transparent);
+}
+
+.gradient-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(to left, #2e2e2e 80%, transparent);
+}
+
+.hover-label {
+  position: fixed;
+  background: #222;
+  color: #fff44f;
+  padding: 6px 16px;
+  border-radius: 8px;
+  pointer-events: none;
+  font-weight: bold;
+  z-index: 9999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-size: 1rem;
+  transition: opacity 0.2s;
+}
